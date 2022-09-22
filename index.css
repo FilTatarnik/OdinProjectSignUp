@@ -7,10 +7,13 @@ html {
     min-width: none;
 }
 body {
-    text-align: center;
+
 }
 .main-content {
     display: flex;
+}
+input {
+    border: 1px solid#E5E7EB;
 }
 input:focus {
     box-shadow: 0px 7px 12px -4px black;
@@ -22,10 +25,16 @@ box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.71);
 border: 1px black solid;
 }
 .form-example {
-
+    display: flex;
+}
+.leftside-forms {
+    flex-direction: row;
+    padding-right: 10%;
 }
 .rightside {
     border: 1px black solid;
+    padding-top: 10%;
+    text-align: left;
 }
 .leftside {
     background: url('HW25Odin.jpg');
@@ -41,4 +50,7 @@ button {
     padding: 5px 15px 5px 15px ;
     color: whitesmoke;
     background-color: #596D48;
+}
+#odin-text{
+    color: whitesmoke;
 }

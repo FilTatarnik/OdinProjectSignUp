@@ -19,16 +19,15 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <main>
-      <section>
-        Left side with Image
-        <img src="#" />
+    <main class="main-content">
+      <section class="leftside">
+        <div>
+        <img src="odin-lined.png" />
         Odin
+      </div>
         <hr />
       </section>
-      <section>
-        <div>
-          Right Side with Forms
+      <section class="rightside">
           <h2>
             This is not a real online service! You know you need something like
             this in your life to help you realize your deepest dreams.
@@ -36,12 +35,10 @@
           <h2>Sign up now to get started.</h2>
           <br />
           <h2>You know you want to.</h2>
-        </div>
-        <div>
           <h2>Let's do this!</h2>
           <section class="formSection">
             <form action="" method="get" class="form-example">
-              <div class="signUpForm">
+              <section class="leftside-forms">
                 <label for="name"></label>
                 <input
                   type="text"
@@ -50,8 +47,6 @@
                   required
                   placeholder="First Name"
                 />
-              </div>
-              <div class="signUpForm">
                 <label for="name"></label>
                 <input
                   type="text"
@@ -60,8 +55,6 @@
                   required
                   placeholder="Last Name"
                 />
-              </div>
-              <div class="signUpForm">
                 <label for="email"></label>
                 <input
                   type="text"
@@ -70,8 +63,8 @@
                   required
                   placeholder="Email"
                 />
-              </div>
-              <div class="signUpForm">
+              </section>
+              <section class="rightside-forms">
                 <label for="phone"></label>
                 <input
                   type="text"
@@ -80,8 +73,6 @@
                   required
                   placeholder="Phone Number"
                 />
-              </div>
-              <div class="signUpForm">
                 <label for="password"></label>
                 <input
                   type="text"
@@ -90,8 +81,6 @@
                   required
                   placeholder="Password"
                 />
-              </div>
-              <div class="signUpForm">
                 <label for="password"></label>
                 <input
                   type="text"
@@ -100,15 +89,14 @@
                   required
                   placeholder="Confirm Password"
                 />
-              </div>
-              <button>Create Account</button>
+              </section>
             </form>
+            <hr />
+            <button>Create Account</button>
             <h3>Already have an account? <a href="#">Log In</a></h3>
           </section>
-        </div>
       </section>
     </main>
-
     <script src="" async defer></script>
   </body>
 </html>

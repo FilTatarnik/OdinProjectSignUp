@@ -1,13 +1,6 @@
-html {
-    min-height: 100vh;
-    border: 1px black solid;
-}
+
 .main-content {
     min-height: 100vh;
-    min-width: none;
-}
-body {
-
 }
 .main-content {
     display: flex;
@@ -18,29 +11,6 @@ input {
 input:focus {
     box-shadow: 0px 7px 12px -4px black;
 }
-.formSection {
--webkit-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.71);
--moz-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.71);
-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.71);
-border: 1px black solid;
-}
-.form-example {
-    display: flex;
-}
-.leftside-forms {
-    flex-direction: row;
-    padding-right: 10%;
-}
-.rightside {
-    border: 1px black solid;
-    padding-top: 10%;
-    text-align: left;
-}
-.leftside {
-    background: url('HW25Odin.jpg');
-    background-size: cover;
-    border: 1px black solid;
-}
 a {
     text-decoration: none;
     color: #596D48;
@@ -50,6 +20,18 @@ button {
     padding: 5px 15px 5px 15px ;
     color: whitesmoke;
     background-color: #596D48;
+}
+.form-example {
+    box-shadow: 0 4px 2px -2px black;
+}
+.rightside {
+    padding-top: 10%;
+    margin: 5% 5%;
+    text-align: left;
+}
+.leftside {
+    background: url('HW25Odin.jpg');
+    background-size: cover;
 }
 #odin-text{
     color: whitesmoke;

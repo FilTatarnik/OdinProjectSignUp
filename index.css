@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+.formSection {
+    -webkit-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.71);
+-moz-box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.71);
+box-shadow: 0px 10px 16px -7px rgba(0,0,0,0.71);
+}
+

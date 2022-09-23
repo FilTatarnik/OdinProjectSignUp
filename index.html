@@ -21,8 +21,8 @@
     <![endif]-->
     <main class="main-content">
       <section class="leftside">
-        <div>
-          <img src="odin-lined.png" alt="odin-logo"/>
+        <div class="odinDiv">
+          <img src="odin-lined.png" alt="odin-logo" class='odin-logo' />
           <h1 id="odin-text">Odin</h1> 
       </div>
       </section>
@@ -31,8 +31,9 @@
           <h2>
             This is not a real online service! You know you need something like
             this in your life to help you realize your deepest dreams.
+            <br />
+            Sign up <em>now</em> to get started.
           </h2>
-          <h2>Sign up <em>now</em> to get started.</h2>
           <br />
           <h2>You <em>know</em> you want to.</h2>
         </section>
@@ -40,8 +41,7 @@
           <section class="form-section">
           <h2>Let's do this!</h2>
             <form action="" method="get" class="form-example">
-              <section class="leftside-forms">
-                <label for="name"></label>
+                <label for="name">First Name</label>
                 <input
                   type="text"
                   name="name"
@@ -49,7 +49,7 @@
                   required
                   placeholder="First Name"
                 />
-                <label for="name"></label>
+                <label for="name">Last Name</label>
                 <input
                   type="text"
                   name="name"
@@ -57,7 +57,7 @@
                   required
                   placeholder="Last Name"
                 />
-                <label for="email"></label>
+                <label for="email">Email</label>
                 <input
                   type="email"
                   name="email"
@@ -65,9 +65,7 @@
                   required
                   placeholder="Email"
                 />
-              </section>
-              <section class="rightside-forms">
-                <label for="phone"></label>
+                <label for="phone">Phone Number</label>
                 <input
                   type="tel"
                   name="tel"
@@ -75,7 +73,7 @@
                   required
                   placeholder="Phone Number"
                 />
-                <label for="password"></label>
+                <label for="password">Password</label>
                 <input
                   type="password"
                   name="password"
@@ -83,7 +81,7 @@
                   required
                   placeholder="Password"
                 />
-                <label for="password"></label>
+                <label for="password">Confirm Password</label>
                 <input
                   type="password"
                   name="passwordConf"
@@ -91,7 +89,6 @@
                   required
                   placeholder="Confirm Password"
                 />
-              </section>
             </form>
           </section>
             <br />

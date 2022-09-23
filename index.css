@@ -1,9 +1,6 @@
-
-.main-content {
-    min-height: 100vh;
-}
-.main-content {
-    display: flex;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 input {
     border: 1px solid#E5E7EB;
@@ -21,17 +18,43 @@ button {
     color: whitesmoke;
     background-color: #596D48;
 }
+h2 {
+    padding: 2.5%;
+}
+.main-content {
+    height: 100vh;
+    display: flex;
+}
+.forms {
+    /* display: flex; */
+}
+.form-section {
+    /* display: flex; */
+    background-color: rgb(239, 239, 239);
+    box-shadow: 0 5px 15px black;
+
+}
 .form-example {
-    box-shadow: 0 4px 2px -2px black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* box-shadow: 0 5px 15px black; */
 }
 .rightside {
     padding-top: 10%;
-    margin: 5% 5%;
     text-align: left;
+    width: 67%;
+
 }
 .leftside {
     background: url('HW25Odin.jpg');
     background-size: cover;
+    width: 33%;
+}
+.bottom-section {
+    padding: 2%;
+}
+.quotes {
 }
 #odin-text{
     color: whitesmoke;

@@ -49,17 +49,20 @@ h2 {
     background: url('HW25Odin.jpg');
     background-size: cover;
     width: 33%;
+    padding-top: 10%;
 }
 .bottom-section {
     padding: 2%;
 }
 .odinDiv {
-    display: flex;
-    font-size: xx-large;
+    
+    background-color: aquamarine;
 }
 .odin-logo {
+    background-color: rgb(39, 39, 91);
     /* width: 20%; */
 }
 #odin-text{
+    background-color: rgb(212, 35, 147);
     color: whitesmoke;
 }

@@ -64,11 +64,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 45%;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, .5);
+    min-height: auto;
 }
 #odin-text{
     /* background-color: rgb(212, 35, 147); */
+    font-size: 60px;
     color: whitesmoke;
-    font-size: 20px;
 }

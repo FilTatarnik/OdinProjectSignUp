@@ -1,7 +1,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow: none;
 }
 input {
     border: 1px solid#E5E7EB;
@@ -59,7 +58,7 @@ img {
     padding-top: 10%;
 }
 .bottom-section {
-    padding: 2%;
+    /* padding: 2%; */
 }
 .odinDiv {
     display: flex;
@@ -67,10 +66,9 @@ img {
     justify-content: center;
     opacity: 45%;
     background: rgb(0, 0, 0);
-    border: 1px solid white;
 }
 #odin-text{
     /* background-color: rgb(212, 35, 147); */
     color: whitesmoke;
-    font-size: 5em;
+    font-size: 20px;
 }

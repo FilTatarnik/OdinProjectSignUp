@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    overflow: none;
 }
 input {
     border: 1px solid#E5E7EB;
@@ -23,7 +24,7 @@ h2 {
     padding-right: 15%;
 }
 img {
-    height: 10em;
+    height: 7em;
     width: auto;
     display: inline-block;
 }
@@ -37,11 +38,12 @@ img {
 .form-section {
     background-color: rgb(239, 239, 239);
     box-shadow: 0 10px 10px rgba(148, 148, 148, 0.473);
-
 }
 .form-example {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 43%;
+
     padding: 2%;
     /* flex-wrap: wrap; */
 }
@@ -62,11 +64,13 @@ img {
 .odinDiv {
     display: flex;
     align-items: center;
+    justify-content: center;
     opacity: 45%;
     background: rgb(0, 0, 0);
+    border: 1px solid white;
 }
-
 #odin-text{
     /* background-color: rgb(212, 35, 147); */
     color: whitesmoke;
+    font-size: 5em;
 }

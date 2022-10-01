@@ -3,9 +3,10 @@ html, body {
     padding: 0;
 }
 input {
+    height: 2rem;
+    width: 10rem;
     border: 1px solid#E5E7EB;
     border-radius: 10% ;
-    max-width: 50%;
 }
 input:focus {
     box-shadow: 0px 7px 12px -4px black;
@@ -21,8 +22,7 @@ button {
     background-color: #596D48;
 }
 h2 {
-    padding: 2.5%;
-    padding-right: 15%;
+    padding: 1.25% 15% 0 2.5%;
 }
 img {
     height: 7em;
@@ -31,6 +31,7 @@ img {
 }
 label {
     display: block;
+    padding: 2.5% 0 2.5% 0;
 }
 /* Main Content */
 .main-content {
@@ -39,20 +40,18 @@ label {
     display: flex;
 }
 /* Forms */
-.forms {
-    padding-left: 10%;
-}
 .form-section {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 10px 10px rgba(148, 148, 148, 0.473);
 }
 .form-example {
     display: flex;
-  /* flex-wrap: wrap; */
-  /* text-align: center; */
-  /* justify-content:flex-start; */
-  /* align-items: stretch; */
-    padding: 2%;
+    justify-content:space-between;
+    max-width: 66%;
+    padding: 0 0 2% 2.5%;
+}
+.input{
+    width: 33vh;
 }
 /* Sections */
 .rightside {

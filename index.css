@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('Norse-Bold(3).otf');
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -6,7 +10,7 @@ input {
     height: 2rem;
     width: 10rem;
     border: 1px solid#E5E7EB;
-    border-radius: 10% ;
+    border-radius: 5% ;
 }
 input:focus {
     box-shadow: 0px 7px 12px -4px black;
@@ -16,8 +20,8 @@ a {
     color: #596D48;
 }
 button {
-    border-radius:  5px;
-    padding: 5px 15px 5px 15px ;
+    border-radius:  5%;
+    padding: 1.25% 5% 1.25% 5%;
     color: whitesmoke;
     background-color: #596D48;
 }
@@ -78,6 +82,7 @@ label {
     margin-top: 5%;
 }
 #odin-text{
+    font-family: 'Norse Bold';
     font-size: 60px;
     color: whitesmoke;
 }
